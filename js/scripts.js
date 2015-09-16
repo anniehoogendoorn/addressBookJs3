@@ -81,5 +81,6 @@ $("form#new-contact").submit(function(event) {
     });
 
     resetFields();
+    $(".new-address").not(".not-remove").remove();
   });
 });
